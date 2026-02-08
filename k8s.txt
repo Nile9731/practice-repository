@@ -1,0 +1,3 @@
+k get pods -n <ns>
+k get rs -n <ns>
+k describe pod pod-name -n <ns>
