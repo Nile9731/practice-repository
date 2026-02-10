@@ -1,3 +1,5 @@
 k get pods -n <ns>
 k get rs -n <ns>
 k describe pod pod-name -n <ns>
+k rollout restart deploy/<deployment-name> -n <ns>
+k edit deploy/<deployment> -n <ns>
